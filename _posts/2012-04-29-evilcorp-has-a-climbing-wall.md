@@ -8,9 +8,9 @@ tags: commentary life
 
 <p class="meta"> 29 April 2012 - Somerville, MA</p>
 
-Adam just finished building a climbing wall with Avril and Vinay's help. 
+Adam just finished building a climbing wall with Avril and Vinay's help.
 
-<div style="text-align: center;"><img src="/resources/img/IMG_2710.png"></div>
+<div style="text-align: center;"><img src="http://dl.dropbox.com/u/3651609//resources/img/IMG_2710.png"></div>
 
 > ---------- Forwarded message ---------- <br />
 > Date: Wed, 25 Apr 2012 00:18:38 -0400 (EDT) <br />
@@ -18,7 +18,7 @@ Adam just finished building a climbing wall with Avril and Vinay's help.
 > Subject: \[Evilcorp\] Erection Party <br />
 >
 > Dear friends, strangers, and casual acquaintances,
-> 
+>
 > Come witness and partake in a glorious erection! This Saturday at about noon,
 > my rising time, I will consummate the final thrust of what has remained the
 > object of my desire through long, hard times. As you'll notice in the attached
@@ -38,7 +38,4 @@ Adam just finished building a climbing wall with Avril and Vinay's help.
 > will ready to please at a moment's notice at any time of day or night. To
 > celebrate we will have a luxurious dinner, light some scented candles and then
 > contort our bodies in lavish ecstasy until we fall back to earth.
-> 
-
-
-
+>

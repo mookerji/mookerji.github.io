@@ -18,12 +18,11 @@ Mechanical Engineering, where I studied
 [novel optical devices](http://web.mit.edu/nanophotonics/), nanotechnology, and
 systems for large-scale numerical simulation. I received SBs (Physics, 2009;
 EECS, 2011) and an MEng (EECS, 2011) from MIT, created algorithms and software
-for emerging platforms at Discovery Engine, Apple, Raytheon BBN Technologies,
-and was the technical director of an artificial vision-based
-[robotics contest](http://maslab.mit.edu/).  Prior to 2012, I designed
-protocols and built optical sources for
-[quantum communication](http://www.rle.mit.edu/qoptics/) at the MIT Research
-Lab for Electronics.
+for emerging platforms at Discovery Engine, Apple, and Raytheon BBN
+Technologies.  Prior to 2012, I designed protocols and built optical sources
+for [quantum communication](http://www.rle.mit.edu/qoptics/) at the MIT
+Research Lab for Electronics, and was the technical director of an artificial
+vision-based [robotics contest](http://maslab.mit.edu/).
 
 [Resume](http://dl.dropbox.com/u/3651609/resources/doc/resume-mookerji.pdf)
 
