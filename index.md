@@ -12,13 +12,14 @@ author: Bhaskar Mookerji
       {% endif %}
     {% endfor %}
   </ul>
-  
+
   <h1> Projects </h1>
     <ul class="posts">
+      <li><a href="https://github.com/mookerji/bezos">Bezos - A Compiled AWS SDK for Haskell</a></li>
       {% for post in site.posts %}
-      	{% if post.tags[0] == "projects" %}      	
+        {% if post.tags[0] == "projects" %}
            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endif %}
+        {% endif %}
       {% endfor %}
     </ul>
-</div> 
+</div>
