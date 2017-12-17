@@ -2,10 +2,11 @@
 layout: post
 title: The Icewatch
 tags: commentary life
+photo_base_url: https://storage.googleapis.com/mookerji-public-gh-erpqqbqxpseyysfhbtt6phabkvutcme/mookerji.github.io/photos/2017-01-03-the-icewatch
 ---
 
 <div style="text-align: center;">
-    <img src="https://mookerji.keybase.pub/photos/icewatch/love_at_first_sight-small.jpg" width="85%%">
+    <img src="{{page.photo_base_url}}/love_at_first_sight-small.jpg" width="85%%">
 </div><br>
 
 # {{ page.title }}
