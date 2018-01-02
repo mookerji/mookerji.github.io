@@ -4,5 +4,8 @@ title: 'Bhaskar Mookerji'
 author:
   name:  '\0/ Bhaskar Mookerji \0/'
 timezone: UTC−07:00
+google_site_verification: WZVnRqdh_kHtPJkDCTORWU4moAh0kcktrGZpM8W3WVk
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

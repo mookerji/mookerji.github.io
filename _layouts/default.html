@@ -13,6 +13,12 @@
 
    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 
+   {% if site.google_site_verification %}
+     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+   {% endif %}
+
+   {% seo %}
+
 </head>
 <body>
 
