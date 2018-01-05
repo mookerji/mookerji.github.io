@@ -2,6 +2,7 @@
 layout: post
 title: Academic Projects of Yesteryear
 tags: projects
+doc_base_url: https://storage.googleapis.com/mookerji-public-gh-erpqqbqxpseyysfhbtt6phabkvutcme/mookerji.github.io/resources/docs
 ---
 
 # {{ page.title }}
@@ -14,30 +15,30 @@ Polarization Entanglement Storage in Ensemble-Based Atomic Memories
 [[proposal/pdf][1], [thesis/pdf][2]] <br>
 _6.UAP/6.ThM Master of Engineering Program Thesis (Spring 2010)_<br>
 
-[1]: http://dl.dropbox.com/u/3651609/resources/doc/uap2010_proposal_mookerji.pdf
-[2]: http://dl.dropbox.com/u/3651609/resources/doc/meng_main.pdf
+[1]: {{page.doc_base_url}}/uap2010_proposal_mookerji.pdf
+[2]: {{page.doc_base_url}}/meng_main.pdf
 
 Tutorial Notes (with Bill Herrington) [[pdf][3]] <br>
 _6.007 Applied Electromagnetics (Fall 2009)_<br>
 
-[3]: http://dl.dropbox.com/u/3651609/resources/doc/tutorials_all_buro.pdf
+[3]: {{page.doc_base_url}}/tutorials_all_buro.pdf
 
 Generation of Fiber-Coupled, Nondegenerate, Polarization Entangled Photons for
 Quantum Communication [[proposal/pdf][4], [thesis/pdf][5]] <br>
 _8.THU Undergraduate Thesis in Physics (Spring 2009)_<br>
 
-[4]: http://dl.dropbox.com/u/3651609/resources/doc/thesis-proposal-2008-2nd-draft.pdf
-[5]: http://dl.dropbox.com/u/3651609/resources/doc/main.pdf
+[4]: {{page.doc_base_url}}/thesis-proposal-2008-2nd-draft.pdf
+[5]: {{page.doc_base_url}}/main.pdf
 
 Density Operators in Quantum Continuous Feedback Control [[pdf][7]] <br>
 _6.453 Quantum Optical Communications (Fall 2008)_<br>
 
-[7]: http://dl.dropbox.com/u/3651609/resources/doc/6453-paper.pdf
+[7]: {{page.doc_base_url}}/6453-paper.pdf
 
 Distributed Problems in Quantum Communication [[pdf][8]]<br>
 _6.896 Quantum Complexity Theory (Fall 2008)_<br>
 
-[8]: http://dl.dropbox.com/u/3651609/resources/doc/term_paper-6896-mookerji.pdf
+[8]: {{page.doc_base_url}}/term_paper-6896-mookerji.pdf
 
 ## Publications
 
