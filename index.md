@@ -19,6 +19,7 @@ author: Bhaskar Mookerji
         {% if post.tags[0] == "projects" %}
            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
-      {% endfor %}
+        {% endfor %}
+        <li><a href="https://mookerzhou.github.io/cooking_journal/">Food and Cooking</a></li>
     </ul>
 </div>
