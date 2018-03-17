@@ -8,7 +8,15 @@ tags: commentary life
 
 <p class="meta"> 16 March 2018 - San Francisco </p>
 
-https://gerrymandrsanfrancisco.weebly.com/
+The
+[ Metric Geometry and Gerrymandering Group (MGGG) ](https://sites.tufts.edu/gerrymandr/)
+hosted a [workshop in SF](https://gerrymandrsanfrancisco.weebly.com/) around
+redistricting, gerrymandering, and voting rights. My notes from the event are
+below.
+
+Errors, omissions, and inaccuracies here are entirely my own! If you have any
+errata, **please**
+[let me know](mailto:mookerji@gmail.com?subject=redistricting-blog-error).
 
 ## Thursday, March 15
 <br>
@@ -116,7 +124,8 @@ https://gerrymandrsanfrancisco.weebly.com/
   - Efficiency gap (Excess vote, losing vote)
   - Always between -0.5 and 0.5 (up to half of the votes are wasted)
   - Assumes equal turnout (depends only on seat margin and vote margin)
-  - Not covering unequal turnout (see Veomett, 2018)
+  - Not covering unequal turnout (see
+    [Veomett, 2018](https://arxiv.org/abs/1801.05301)).
   - Efficiency gap has slope 2 on the symmetry method parallelogram
   - With 60% of vote, you deserve 70% of seats.
   - With 75% of vote, you deserve 100% of seats. With more lopsided elections,
@@ -325,7 +334,6 @@ p* Issues also affect other countries, not just the US (e.g., population centers
 
 <br>
 ## Friday, March 16
-
 <br>
 ### 09:30 - 10:20AM - *Lisa García Bedolla (UC Berkeley) - [slides][bedolla_slides]*
 **Why the Lines Matter: Race and Representation**
