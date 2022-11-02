@@ -10,15 +10,17 @@ I'm a software engineer in San Francisco, broadly interested in
 cross-disciplinary applications of statistics, machine learning, and
 physical modeling to real-world problems.
 
-From 2014 to 2017, I worked for
-[Swift Navigation](https://github.com/swift-nav/), a GPS hardware
-startup in aiming to make low cost, high accuracy positioning hardware
-ubiquitous and easy to use. In 2014, Swift kicked-off a frenzy around
-low-cost [RTK GPS](https://en.wikipedia.org/wiki/Real_Time_Kinematic),
-and was probably the first (only?) to commercialize a
-[software-defined GPS receiver](https://www.swiftnav.com/piksi-multi). While
-there, I worked on software libraries, clients/services for streaming
-GPS augmentation data, observability (of all kinds), and hiring much
+From 2014 to 2017, I worked for [Swift
+Navigation](https://github.com/swift-nav/), a GPS hardware startup in aiming to
+make low cost, high accuracy positioning hardware ubiquitous and easy to use. In
+2014, Swift kicked-off a frenzy around low-cost [RTK
+GPS](https://en.wikipedia.org/wiki/Real_Time_Kinematic), and was probably the
+first (only?) to commercialize a [software-defined GPS
+receiver](https://www.swiftnav.com/piksi-multi). Today, Swift provides safe,
+[GNSS-based](https://en.wikipedia.org/wiki/Satellite_navigation) precise
+positioning for surprising variety of industries in North America, Japan, and
+Europe. While there, I worked on software libraries, clients/services for
+streaming GNSS augmentation data, observability (of all kinds), and hiring much
 of the initial technical team.
 
 From 2013 to 2014, I wrote [Clojure](http://clojure.org) for a small
