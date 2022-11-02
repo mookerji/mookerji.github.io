@@ -118,6 +118,8 @@ Some tips:
   Sunday traffic through Victoria by returning through Nanaimo.
 - **Rain**. If you're planning to explore on foot during the rainy season, bring
   a drybags and/or waterproof backpack (.... or borrow a _giant_ umbrella).
+  
+(🙏 Thanks to coworkers, friends, and family who gave trip planning advice!)
 
 <br>
 <div style="text-align: center;">
