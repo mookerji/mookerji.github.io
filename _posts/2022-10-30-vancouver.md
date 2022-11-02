@@ -4,6 +4,11 @@ title: October 2022 Vancouver Trip
 tags: commentary life
 ---
 
+<div style="text-align: center;">
+    <img src="https://user-images.githubusercontent.com/353255/199405135-98950faa-9ded-41a9-8f8f-40361d7524a4.png" style="max-width: 75%; height: auto;">
+</div><br>
+
+
 # {{ page.title }}
 
 After a somewhat intense year for work, we took a one-week vacation to Vancouver
