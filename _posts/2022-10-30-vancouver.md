@@ -5,9 +5,8 @@ tags: commentary life
 ---
 
 <div style="text-align: center;">
-    <img src="https://user-images.githubusercontent.com/353255/199405135-98950faa-9ded-41a9-8f8f-40361d7524a4.png" style="max-width: 75%; height: auto;">
-</div><br>
-
+    <img src="https://user-images.githubusercontent.com/353255/199405135-98950faa-9ded-41a9-8f8f-40361d7524a4.png" style="max-width: 70%; height: auto;">
+</div>
 
 # {{ page.title }}
 
@@ -115,3 +114,6 @@ Some tips:
   a drybags and/or waterproof backpack (.... or borrow a _giant_ umbrella).
 
 
+<div style="text-align: center;">
+    <img src="https://user-images.githubusercontent.com/353255/199408001-f9fdca7f-9e6d-4ba6-90cb-e6b814377f51.gif" style="max-width: 200%; height: auto;">
+</div>
