@@ -44,6 +44,12 @@ to the election:
 
 A few graphs here that I think are interesting:
 
+![statewide-by-county](https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede){:class="img-responsive"}
+![statewide-per-month](https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015){:class="img-responsive"}
+![statewide-cumulative-all-counties](https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354){:class="img-responsive"}
+![statewide-cumulative-without-wake-mecklenburg](https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8){:class="img-responsive"}
+
+
 Totals:
 
 | Party      | All    | w/o Meck/Wake |
