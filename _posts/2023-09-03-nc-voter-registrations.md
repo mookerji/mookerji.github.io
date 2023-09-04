@@ -4,53 +4,40 @@ title: Anticipating 2024: NC Voter Registrations since 2020
 tags: commentary life
 ---
 
-In 2020, the news coverage of my Southern home state --- North Carolina --- was
-too horserace-y, given that it was the most important election of our
-lifetimes. I spent much of that late Summer and Fall looking at voter
-demographic and registration data to make sense of what was going on.
-
-I just looked at voter registrations since the end of 2020 to see if trends from
-that period are holding for 2024 (tldr: they've changed!). I'll continue to
-update those here every few months.
+I just looked at new North Carolina voter registrations to see if voter
+registration trends from before the 2020 General Election are holding
+for 2024. It seems they've changed!
 
 # Background
 
 To win an election, you must first register a lot of voters. Elections also
 matter: they have [real practical outcomes][ncdems_flip] for voters and so
 voters should care about voter registration and the momentum around it. Southern
-states have structural advantages in the Electoral College. Some states (like
-NC) may be diversifying demographically and politically faster than others, but
-are impacted by the [crazy gerrymandering][nc_map] of the state legislative
-districts.
+states have structural advantages in the Electoral College, so their electoral
+outcomes are frequently national ones. Some states (like NC) may be diversifying
+demographically and politically faster than others, but are affected by the
+[crazy gerrymandering][nc_map] of the state legislative districts.
 
 To [recap 2020][nc_wiki], Biden lost NC to Trump by about 74k votes, or about
-1.3% of votes cast. State Democrats also lost the state court, lost State House
-seats, and lost the opportunity to push fairer electoral maps following the 2020
-Census. I donated to the Long Leaf Pine Slate, which lost 2 of 17 races they
-backed! Nationally: the Democratic Party's ground organizing campaign focused on
-mail-in voting and prohibited in-person organizing until September 2020 due to
-obvious COVID-19 concerns. The NC GOP, as far as I could tell, simply adopted
-social distancing and masking policies for in-person registrations well before
-the Democratic Party.
+1.3% of votes cast. State Democrats also lost the state Supreme Court, lost
+State House seats, and lost the opportunity to push fairer electoral maps
+following the 2020 Census. I donated to the Long Leaf Pine Slate, which lost 2
+of 17 races they backed! Nationally, the Democratic Party's ground organizing
+campaign focused on mail-in voting (which was successful) but prohibited
+in-person organizing until September 2020 due to obvious COVID-19 concerns. The
+NC GOP, as far as I could tell, simply adopted social distancing and masking
+policies for in-person registrations well before the Democratic Party.
 
 You can kind of see this in the accumulated voter registration totals leading up
-to the election:
+to the election with the Democrats lagging new registrations into Election Day:
 
-![registration count and changes](https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png){:class="img-responsive"}
+![registration count and changes](https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png)
 
 [nc_map]: https://projects.fivethirtyeight.com/redistricting-2022-maps/north-carolina/
 
 # 2024 ... As of September 2023
 
-A few graphs here that I think are interesting:
-
-![statewide-by-county](https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede){:class="img-responsive"}
-![statewide-per-month](https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015){:class="img-responsive"}
-![statewide-cumulative-all-counties](https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354){:class="img-responsive"}
-![statewide-cumulative-without-wake-mecklenburg](https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8){:class="img-responsive"}
-
-
-Totals:
+New registration totals since November 2020:
 
 | Party      | All    | w/o Meck/Wake |
 |:-----------|-------:| -------------:|
@@ -59,18 +46,32 @@ Totals:
 | THIRD      |  13252 | 10428  |
 | UNA        | 561085 | 432133 |
 
-Some takeaways:
+Unaffiliated voters still dominate the voter registrations (as they have for
+some time), but new Democratic and GOP voter registrations since December 2020
+are approximately even! The gap between newly registered Republicans and
+Democrats is less than 3k.
+  
+![statewide-cumulative-all-counties](https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354)
 
-- Unaffiliated voters still dominate the voter registrations (as they have for
-  some time), but new Democratic and GOP voter registrations since December 2020
-  are surprisingly even! The gap between newly registered Republicans and
-  Democrats is less than 3k.
-- As of August 2024, the 'No Labels' Party is [official in NC][old_north_nlb],
-  with about 400 people registered, of which 52 are in Wake County.
-- If you exclude Wake and Mecklenburg Counties --- the biggest urban Democratic
-  counties from the data --- the gap isn't *that huge* (around 43k). I would
-  have expected something huge, given that organizing efforts have focused on
-  these larger counties.
+Wake and Mecklenburg County still make up a huge fraction of the new electorate
+and they are the biggest urban Democratic counties in the state. As of August
+2024, the 'No Labels' Party is [official in NC][old_north_nlb], with about 400
+people registered, of which 52 are in Wake County.
+
+![statewide-by-county](https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede)
+
+If you exclude Wake and Mecklenburg the registration gap grows but isn't *that
+huge* (around 43k). I would have expected something much larger, given the past
+organizing resources thrown at these larger counties.
+  
+![statewide-cumulative-without-wake-mecklenburg](https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8)
+
+No notable registration bumps following June 2022, which is when the Dobbs
+Supreme Court ruling overturned Roe. Registration bumps coincide with state
+primaries and during the midterms, which is not
+[surprising][registrations_surge].
+  
+![statewide-per-month](https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015)
 
 [nc_wiki]: https://en.wikipedia.org/wiki/2020_United_States_presidential_election_in_North_Carolina
 [ncdems_flip]: https://www.nytimes.com/2023/07/30/us/inside-the-party-switch-that-blew-up-north-carolina-politics.html
@@ -78,8 +79,10 @@ Some takeaways:
 [old_north_state]: http://www.oldnorthstatepolitics.com/
 [registrations_online]: https://www.nbcnews.com/politics/2020-election/campaigning-during-coronavirus-dnc-takes-organizing-line-n1171811
 [old_north_nlb]: http://www.oldnorthstatepolitics.com/2023/08/a-too-early-look-at-no-labels.html
+[dobbs]: https://en.wikipedia.org/wiki/Dobbs_v._Jackson_Women%27s_Health_Organization
+[registrations_surge]: https://fivethirtyeight.com/features/why-a-surge-in-republican-voter-registration-might-not-mean-a-surge-in-trump-support/
 
-# Methodology
+# Methods
 
 I love that it's possible for anyone to do this kind of analysis at home using
 open source tools. To generate these graphs above I used [Pandas][pandas] and a
@@ -94,9 +97,9 @@ using similar analysis to the one I posted [here][nc-2020-dat] in 2020.
 ## Getting the Data
 
 The NC Board of Elections maintains a [page][nc_voter_file] where you can
-download the the public state voter file. Some quick links:
+download the public voter file. Some quick links:
 
-- [Voter file][nc_voter_dl]:
+- [Voter file][nc_voter_dl]
 - [Voter file schema][nc_voter_layout]
 
 If you're setup with AWS and use the terminal, you can download these files
@@ -109,15 +112,17 @@ $ aws s3 cp s3://dl.ncsbe.gov/data/layout_ncvoter.txt .
 
 ## Normalize the Data
 
-The statewide voter file is **really big**: about 3.6G and almost 8.4M rows (as
-of 09-03-2023). I didn't want to exhaust my RAM while plotting data, so I parsed
-and simplified this dataset to something smaller: new, active registrations
+The statewide voter file is **big**: about 3.6G and almost 8.4M rows (as of
+09-03-2023). Like voter files everywhere, it contains a huge amount of
+identifying information that would be considered private in any other context. I
+didn't want to exhaust my RAM while plotting data, so I parsed and simplified
+this dataset to something smaller and less creepy: new, active registrations
 since the last general election, voter demographics, and city/county data.
 
 ```python
 import pandas as pd
 
-# Parse the data
+# Parse the data (drops a few records)
 df = pd.read_csv('ncvoter_Statewide.txt',
                    delim_whitespace=True,
                    on_bad_lines='skip',
@@ -140,10 +145,8 @@ newly_registered['party_cd'] = newly_registered['party_cd'].replace(['LIB', 'NLB
 newly_registered.to_csv('ncvoter_Statewide_post-2020-12-01.csv', index=False)
 ```
 
-The `layout_ncvoter.txt` includes a schema for the file. Like many voter files
-everywhere, it contains a huge amount of identifying information that would
-normally be considered private in any other context. This is the subset for the
-columns I selected above:
+The `layout_ncvoter.txt` includes a schema for the voter file. This is the
+subset for the columns I selected above:
 
 ```
 ------------------------------------------------------------------------------------
@@ -160,9 +163,8 @@ gender_code             char(1)            Gender/sex code
 birth_year              char(4)            Year of birth
 ```
 
-The resulting table `newly_registered` is much smaller and less creepy: about
-1.2M records for a 62MB CSV file.  The contents (from `newly_registered.head()`)
-looks like this:
+The resulting table `newly_registered` is much smaller: about 1.2M records for a
+62MB CSV file.  The contents (from `newly_registered.head()`) looks like this:
 
 |    | registr_dt          | voter_status_desc   |   birth_year | race_code   | ethnic_code   | gender_code   | party_cd   | county_desc   | res_city_desc   |
 |---:|:--------------------|:--------------------|-------------:|:------------|:--------------|:--------------|:-----------|:--------------|:----------------|
@@ -195,12 +197,10 @@ total_by_county['ALL'] = total_by_county.sum(axis=1)
 total_by_county = total_by_county.sort_values(by='ALL')
 total_by_county
 
-ax = total_by_county[parties.plot.bar(stacked=True, color=COLORS_
+ax = total_by_county[parties.plot.bar(stacked=True, color=COLORS)
 ax.set_title('Statewide New Voter Registrations Since 12-01-2020',)
 ax.set_xlabel('County')
 ax.set_ylabel('Registrations (count)')
-plt.tight_layout()
-plt.savefig('statewide-by-county.png')
 ```
 
 Some sample data:
@@ -214,7 +214,7 @@ Some sample data:
 | WASHINGTON    |   283 |   255 |       9 |   438 |   985 |
 
 
-### Weekly Registration
+### Monthly Registrations
 
 This will produce demographic statistics similar to what you'd find on the NC
 Registration Statistics [page][nc_stats]. To get these demographics you group by
@@ -236,6 +236,23 @@ Some sample data:
 |  2 | 2020-12-31 00:00:00 | A           | NL            | F             | REP        |      25 |
 |  3 | 2020-12-31 00:00:00 | A           | NL            | F             | THIRD      |       2 |
 |  4 | 2020-12-31 00:00:00 | A           | NL            | F             | UNA        |      72 |
+
+You can then pivot with:
+
+```python
+monthly_voter_stats.groupby(['registr_dt', 'party_cd'])['count'].sum().reset_index().pivot_table(values='count', index='registr_dt', columns='party_cd')
+```
+
+to get:
+
+| registr_dt          |   DEM |   REP |   THIRD |   UNA |
+|:--------------------|------:|------:|--------:|------:|
+| 2020-12-31 00:00:00 |  5950 |  6756 |     288 | 10279 |
+| 2021-01-31 00:00:00 |  6601 |  6621 |     287 | 11026 |
+| 2021-02-28 00:00:00 |  6834 |  6700 |     314 | 11104 |
+| 2021-03-31 00:00:00 |  8395 |  8672 |     336 | 13642 |
+| 2021-04-30 00:00:00 |  7892 |  7985 |     325 | 12829 |
+
 
 
 [results-2020]: https://mookerji.github.io/nc-2020-dat/
