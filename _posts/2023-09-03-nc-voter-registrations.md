@@ -21,7 +21,7 @@ demographically and politically faster than others, but are affected by the
 To [recap 2020][nc_wiki], Biden lost NC to Trump by about 74k votes, or about
 1.3% of votes cast. State Democrats also lost the state Supreme Court, lost
 State House seats, and lost the opportunity to push fairer electoral maps
-following the 2020 Census. I donated to the Long Leaf Pine Slate, which lost 2
+following the 2020 Census. I donated to the Long Leaf Pine Slate, which lost 15
 of 17 races they backed! Nationally, the Democratic Party's ground organizing
 campaign focused on mail-in voting (which was successful) but prohibited
 in-person organizing until September 2020 due to obvious COVID-19 concerns. The
@@ -31,7 +31,6 @@ policies for in-person registrations well before the Democratic Party.
 You can kind of see this in the accumulated voter registration totals leading up
 to the election with the Democrats lagging new registrations into Election Day:
 
-<br>
 <div style="text-align: center;">
     <img src="https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png" style="max-width: 100%; height: auto;">
 </div>
@@ -56,7 +55,6 @@ some time), but new Democratic and GOP voter registrations since December 2020
 are approximately even! The gap between newly registered Republicans and
 Democrats is less than 3k.
 
-<br>
 <div style="text-align: center;">
     <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354" style="max-width: 100%; height: auto;">
 </div>
@@ -66,7 +64,6 @@ and they are the biggest urban Democratic counties in the state. As of August
 2024, the 'No Labels' Party is [official in NC][old_north_nlb], with about 400
 people registered, of which 52 are in Wake County.
 
-<br>
 <div style="text-align: center;">
     <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede" style="max-width: 100%; height: auto;">
 </div>
@@ -75,7 +72,6 @@ If you exclude Wake and Mecklenburg the registration gap grows but isn't *that
 huge* (around 43k). I would have expected something much larger, given the past
 organizing resources thrown at these larger counties.
 
-<br>
 <div style="text-align: center;">
     <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8" style="max-width: 100%; height: auto;">
 </div>
@@ -85,7 +81,6 @@ Supreme Court ruling overturned Roe. Registration bumps coincide with state
 primaries and during the midterms, which is not
 [surprising][registrations_surge].
 
-<br>
 <div style="text-align: center;">
     <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015" style="max-width: 100%; height: auto;">
 </div>
@@ -127,7 +122,6 @@ $ aws s3 cp s3://dl.ncsbe.gov/data/ncvoter_Statewide.zip .
 $ aws s3 cp s3://dl.ncsbe.gov/data/layout_ncvoter.txt .
 ```
 <br>
-
 ## Normalize the Data
 
 The statewide voter file is **big**: about 3.6G and almost 8.4M rows (as of
@@ -194,16 +188,15 @@ The resulting table `newly_registered` is much smaller: about 1.2M records for a
 |  3 | 2021-05-21 00:00:00 | ACTIVE              |         1981 | B           | NL            | M             | UNA        | ALAMANCE      | BURLINGTON      |
 |  4 | 2022-10-07 00:00:00 | ACTIVE              |         1992 | W           | NL            | F             | REP        | ALAMANCE      | MEBANE          |
 ```
-
-## Analyzing the Data
-
-### County Aggregates
+<br>
+## Analysis: County Aggregates
 
 To get the county aggregates you:
 
 - group by county name and party registration
 - count those groups
 - pivot counts by party registration and total for each county
+<br>
 
 ```python
 # Color coding
@@ -238,9 +231,8 @@ Some sample data:
 | GATES         |   204 |   330 |      18 |   428 |   980 |
 | WASHINGTON    |   283 |   255 |       9 |   438 |   985 |
 ```
-
-
-### Monthly Registrations
+<br>
+## Analysis: Monthly Registrations
 
 This will produce demographic statistics similar to what you'd find on the NC
 Registration Statistics [page][nc_stats]. To get these demographics you group by
