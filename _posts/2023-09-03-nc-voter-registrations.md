@@ -33,7 +33,7 @@ to the election with the Democrats lagging new registrations into Election Day:
 
 <br>
 <div style="text-align: center;">
-    <img src="https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png" style="max-width: 75%; height: auto;">
+    <img src="https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png" style="max-width: 100%; height: auto;">
 </div>
 
 [nc_map]: https://projects.fivethirtyeight.com/redistricting-2022-maps/north-carolina/
@@ -42,12 +42,14 @@ to the election with the Democrats lagging new registrations into Election Day:
 
 New registration totals since November 2020:
 
+```
 | Party      | All    | w/o Meck/Wake |
 |:-----------|-------:| -------------:|
-| DEM        | 307628 | 223729 |
-| REP        | 309917 | 267982 |
-| THIRD      |  13252 | 10428  |
-| UNA        | 561085 | 432133 |
+| DEM        | 307628 |        223729 |
+| REP        | 309917 |        267982 |
+| THIRD      |  13252 |        10428  |
+| UNA        | 561085 |        432133 |
+```
 
 Unaffiliated voters still dominate the voter registrations (as they have for
 some time), but new Democratic and GOP voter registrations since December 2020
@@ -56,7 +58,7 @@ Democrats is less than 3k.
 
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354" style="max-width: 75%; height: auto;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354" style="max-width: 100%; height: auto;">
 </div>
 
 Wake and Mecklenburg County still make up a huge fraction of the new electorate
@@ -66,7 +68,7 @@ people registered, of which 52 are in Wake County.
 
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede" style="max-width: 75%; height: auto;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede" style="max-width: 100%; height: auto;">
 </div>
 
 If you exclude Wake and Mecklenburg the registration gap grows but isn't *that
@@ -75,7 +77,7 @@ organizing resources thrown at these larger counties.
 
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8" style="max-width: 75%; height: auto;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8" style="max-width: 100%; height: auto;">
 </div>
 
 No notable registration bumps following June 2022, which is when the Dobbs
@@ -85,7 +87,7 @@ primaries and during the midterms, which is not
 
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015" style="max-width: 75%; height: auto;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015" style="max-width: 100%; height: auto;">
 </div>
 
 [nc_wiki]: https://en.wikipedia.org/wiki/2020_United_States_presidential_election_in_North_Carolina
@@ -124,6 +126,7 @@ directly from where they're hosted:
 $ aws s3 cp s3://dl.ncsbe.gov/data/ncvoter_Statewide.zip .
 $ aws s3 cp s3://dl.ncsbe.gov/data/layout_ncvoter.txt .
 ```
+<br>
 
 ## Normalize the Data
 
@@ -154,7 +157,8 @@ newly_registered = df[to_keep][df['registr_dt'] > start_date]
 newly_registered = newly_registered[newly_registered['voter_status_desc'] == 'ACTIVE']
 
 # Group all third parties, including 'No Labels' (!)
-newly_registered['party_cd'] = newly_registered['party_cd'].replace(['LIB', 'NLB', 'LIB', 'GRE'], 'THIRD')
+newly_registered['party_cd'] \
+    = newly_registered['party_cd'].replace(['LIB', 'NLB', 'LIB', 'GRE'], 'THIRD')
 
 # Save the subset
 newly_registered.to_csv('ncvoter_Statewide_post-2020-12-01.csv', index=False)
@@ -181,6 +185,7 @@ birth_year              char(4)            Year of birth
 The resulting table `newly_registered` is much smaller: about 1.2M records for a
 62MB CSV file.  The contents (from `newly_registered.head()`) looks like this:
 
+```
 |    | registr_dt          | voter_status_desc   |   birth_year | race_code   | ethnic_code   | gender_code   | party_cd   | county_desc   | res_city_desc   |
 |---:|:--------------------|:--------------------|-------------:|:------------|:--------------|:--------------|:-----------|:--------------|:----------------|
 |  0 | 2023-05-09 00:00:00 | ACTIVE              |         1945 | W           | NL            | M             | REP        | ALAMANCE      | GRAHAM          |
@@ -188,6 +193,7 @@ The resulting table `newly_registered` is much smaller: about 1.2M records for a
 |  2 | 2021-04-15 00:00:00 | ACTIVE              |         2003 | W           | NL            | M             | REP        | ALAMANCE      | GIBSONVILLE     |
 |  3 | 2021-05-21 00:00:00 | ACTIVE              |         1981 | B           | NL            | M             | UNA        | ALAMANCE      | BURLINGTON      |
 |  4 | 2022-10-07 00:00:00 | ACTIVE              |         1992 | W           | NL            | F             | REP        | ALAMANCE      | MEBANE          |
+```
 
 ## Analyzing the Data
 
@@ -207,7 +213,10 @@ parties = ['DEM', 'REP', 'THIRD', 'UNA']
 # Group, count, and pivot
 # Note: following .count(), all columns have the same value, so choose any one and rename to count
 groupby = ['county_desc', 'party_cd']
-total_by_county = newly_registered.groupby(groupby).count()['birth_year'].reset_index().rename(columns={'birth_year': 'count'}).pivot_table(values='count', index='county_desc', columns='party_cd')
+total_by_county = newly_registered.groupby(groupby).count()['birth_year'] \
+   .reset_index() \
+   .rename(columns={'birth_year': 'count'})\
+   .pivot_table(values='count', index='county_desc', columns='party_cd')
 total_by_county['ALL'] = total_by_county.sum(axis=1)
 total_by_county = total_by_county.sort_values(by='ALL')
 total_by_county
@@ -220,6 +229,7 @@ ax.set_ylabel('Registrations (count)')
 
 Some sample data:
 
+```
 | county_desc   |   DEM |   REP |   THIRD |   UNA |   ALL |
 |:--------------|------:|------:|--------:|------:|------:|
 | TYRRELL       |    65 |    65 |     nan |   104 |   234 |
@@ -227,6 +237,7 @@ Some sample data:
 | GRAHAM        |    73 |   402 |       9 |   287 |   771 |
 | GATES         |   204 |   330 |      18 |   428 |   980 |
 | WASHINGTON    |   283 |   255 |       9 |   438 |   985 |
+```
 
 
 ### Monthly Registrations
@@ -237,13 +248,19 @@ registration week and demographic feature (race/ethnicity, gender/sex, and party
 registration) and then count.
 
 ```python
-groupby = [pd.Grouper(key='registr_dt', freq="M"),'race_code', 'ethnic_code', 'gender_code', 'party_cd']
-monthly_voter_stats = newly_registered.sort_values('registr_dt').groupby(groupby).count()['birth_year'].reset_index().rename(columns={'birth_year': 'count'})
+groupby = [pd.Grouper(key='registr_dt', freq="M"), 
+          'race_code', 'ethnic_code', 'gender_code', 'party_cd']
+monthly_voter_stats = newly_registered.sort_values('registr_dt') \
+                      .groupby(groupby) \
+                      .count()['birth_year'] \
+                      .reset_index() \
+                      .rename(columns={'birth_year': 'count'})
 monthly_voter_stats
 ```
 
 Some sample data:
 
+```
 |    | registr_dt          | race_code   | ethnic_code   | gender_code   | party_cd   |   count |
 |---:|:--------------------|:------------|:--------------|:--------------|:-----------|--------:|
 |  0 | 2020-12-31 00:00:00 | A           | HL            | M             | UNA        |       2 |
@@ -251,15 +268,19 @@ Some sample data:
 |  2 | 2020-12-31 00:00:00 | A           | NL            | F             | REP        |      25 |
 |  3 | 2020-12-31 00:00:00 | A           | NL            | F             | THIRD      |       2 |
 |  4 | 2020-12-31 00:00:00 | A           | NL            | F             | UNA        |      72 |
+```
 
 You can then pivot with:
 
 ```python
-monthly_voter_stats.groupby(['registr_dt', 'party_cd'])['count'].sum().reset_index().pivot_table(values='count', index='registr_dt', columns='party_cd')
+monthly_voter_stats.groupby(['registr_dt', 'party_cd'])['count'].sum() \
+  .reset_index()\
+  .pivot_table(values='count', index='registr_dt', columns='party_cd')
 ```
 
 to get:
 
+```
 | registr_dt          |   DEM |   REP |   THIRD |   UNA |
 |:--------------------|------:|------:|--------:|------:|
 | 2020-12-31 00:00:00 |  5950 |  6756 |     288 | 10279 |
@@ -267,7 +288,7 @@ to get:
 | 2021-02-28 00:00:00 |  6834 |  6700 |     314 | 11104 |
 | 2021-03-31 00:00:00 |  8395 |  8672 |     336 | 13642 |
 | 2021-04-30 00:00:00 |  7892 |  7985 |     325 | 12829 |
-
+```
 
 
 [results-2020]: https://mookerji.github.io/nc-2020-dat/
