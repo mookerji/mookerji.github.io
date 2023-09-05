@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anticipating 2024: NC Voter Registrations since 2020
+title: Anticipating 2024 - NC Voter Registrations since 2020
 tags: commentary life
 ---
 
