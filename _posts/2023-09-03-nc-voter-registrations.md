@@ -31,7 +31,10 @@ policies for in-person registrations well before the Democratic Party.
 You can kind of see this in the accumulated voter registration totals leading up
 to the election with the Democrats lagging new registrations into Election Day:
 
-![registration count and changes](https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png)
+<br>
+<div style="text-align: center;">
+    <img src="https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png" style="max-width: 75%; height: auto;">
+</div>
 
 [nc_map]: https://projects.fivethirtyeight.com/redistricting-2022-maps/north-carolina/
 
@@ -50,28 +53,40 @@ Unaffiliated voters still dominate the voter registrations (as they have for
 some time), but new Democratic and GOP voter registrations since December 2020
 are approximately even! The gap between newly registered Republicans and
 Democrats is less than 3k.
-  
-![statewide-cumulative-all-counties](https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354)
+
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/cc4075d2-d9b5-44e3-8e49-7096a0a2c354" style="max-width: 75%; height: auto;">
+</div>
 
 Wake and Mecklenburg County still make up a huge fraction of the new electorate
 and they are the biggest urban Democratic counties in the state. As of August
 2024, the 'No Labels' Party is [official in NC][old_north_nlb], with about 400
 people registered, of which 52 are in Wake County.
 
-![statewide-by-county](https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede)
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/df5d6444-7ea5-44d3-94b5-9949f17d4ede" style="max-width: 75%; height: auto;">
+</div>
 
 If you exclude Wake and Mecklenburg the registration gap grows but isn't *that
 huge* (around 43k). I would have expected something much larger, given the past
 organizing resources thrown at these larger counties.
-  
-![statewide-cumulative-without-wake-mecklenburg](https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8)
+
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/c12a1791-96bb-4bd4-87df-abcfdc62e6a8" style="max-width: 75%; height: auto;">
+</div>
 
 No notable registration bumps following June 2022, which is when the Dobbs
 Supreme Court ruling overturned Roe. Registration bumps coincide with state
 primaries and during the midterms, which is not
 [surprising][registrations_surge].
-  
-![statewide-per-month](https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015)
+
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/5af0c855-af8c-463e-a7b9-4a8e6b9c0015" style="max-width: 75%; height: auto;">
+</div>
 
 [nc_wiki]: https://en.wikipedia.org/wiki/2020_United_States_presidential_election_in_North_Carolina
 [ncdems_flip]: https://www.nytimes.com/2023/07/30/us/inside-the-party-switch-that-blew-up-north-carolina-politics.html
