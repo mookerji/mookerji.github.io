@@ -312,7 +312,7 @@ to get:
 | 2021-03-31 00:00:00 |  8395 |  8672 |     336 | 13642 |
 | 2021-04-30 00:00:00 |  7892 |  7985 |     325 | 12829 |
 ```
-
+<br>
 # Changelog
 
 * **12-28-2023**. Updated to include registration numbers through 2023.
