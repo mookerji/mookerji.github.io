@@ -37,7 +37,38 @@ to the election with the Democrats lagging new registrations into Election Day:
 
 [nc_map]: https://projects.fivethirtyeight.com/redistricting-2022-maps/north-carolina/
 
-# 2024 ... As of September 2023
+# 2024 ... As of December 2023
+
+> For additional commentary on this, see the writeup from September 2023!
+
+New registration totals since November 2020:
+
+```
+| Party      | All    | w/o Meck/Wake |
+|:-----------|-------:| -------------:|
+| DEM        | 329942 |        240560 |
+| REP        | 338680 |        292778 |
+| THIRD      |  17816 |        14002  |
+| UNA        | 612784 |        472383 |
+```
+
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/6598e85a-05b4-4125-8c6c-a03fe9097dda" style="max-width: 100%; height: auto;">
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/3f0350c5-1ed3-4f13-95d7-9d0cdea1c161" style="max-width: 100%; height: auto;">
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/bdfcd51c-4b95-4445-a1d2-c9c8eb4a73d8" style="max-width: 100%; height: auto;">
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/1a2fa7f7-9d66-44cc-a8bc-9faa374d1705" style="max-width: 100%; height: auto;">
+</div>
+
+# Initial Look: 2024 ... As of September 2023
 
 New registration totals since November 2020:
 
@@ -282,6 +313,10 @@ to get:
 | 2021-04-30 00:00:00 |  7892 |  7985 |     325 | 12829 |
 ```
 
+# Changelog
+
+* **12-28-2023**. Updated to include registration numbers through 2023.
+* **09-04-2023**. Initial post.
 
 [results-2020]: https://mookerji.github.io/nc-2020-dat/
 [nc_voter_file]: https://www.ncsbe.gov/results-data/voter-registration-data
