@@ -16,7 +16,7 @@ There's some interesting stuff! For example, the City started doing more
 preventative maintenance in 2015 (assuming this attribution is correct):
 
 <div style="text-align: center;">
-    <img src="https://mookerji.github.io/nc-2020-dat/assets/images/statewide-registrations-changes-by-party.png" style="max-width: 100%; height: auto;">
+    <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/66bed489-3ac7-41b6-bedd-6979878f55fd" style="max-width: 100%; height: auto;">
 </div>
 
 Renovations ebb and flow, but recent, major repaving work seems to average
