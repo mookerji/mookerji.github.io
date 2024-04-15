@@ -19,11 +19,16 @@ preventative maintenance in 2015 (assuming this attribution is correct):
     <img src="https://github.com/mookerji/mookerji.github.io/assets/353255/66bed489-3ac7-41b6-bedd-6979878f55fd" style="max-width: 100%; height: auto;">
 </div>
 
+> Caveat: these numbers do differ _slightly_ from the recent numbers reported by
+> the City [here][2024_plan].
+
 Renovations ebb and flow, but recent, major repaving work seems to average
-~3miles/year. I have no sense of whether that typical or not!
+~3miles/year. I have no sense of whether that typical performance for a city
+Berkeley's size.
 
 [parcel_tax]: https://www.berkeleyside.org/2024/01/16/berkeley-2024-election-street-paving-parcel-tax
 [safe_streets]: https://www.berkeleysafestreets.com/home
 [data]: https://github.com/mookerji/berkeley-data
 [source_ptap_2023]: https://berkeleyca.gov/sites/default/files/documents/City%20of%20Berkeley_2022%20PMP%20Update_PTAP%2023%20Final%20Report.pdf
 [tabula]: https://tabula.technology/
+[2024_plan]: https://berkeleyca.gov/sites/default/files/documents/2023-11-28%20Item%2017%20Paving%20Plan.pdf
