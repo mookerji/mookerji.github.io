@@ -10,7 +10,8 @@ that survey for *entire* street network as a PDF table. This data is pretty
 detailed: it includes an index of street segments, measured centerline
 distances, and their most recent maintenance history (namely, the renovation and
 when the project was completed). I used [Tabula][tabula] to extract this data
-and posted it here: https://github.com/mookerji/berkeley-data.
+and posted it here:
+[https://github.com/mookerji/berkeley-data](https://github.com/mookerji/berkeley-data).
 
 There's some interesting stuff! For example, the City started doing more
 preventative maintenance in 2015 (assuming this attribution is correct):
